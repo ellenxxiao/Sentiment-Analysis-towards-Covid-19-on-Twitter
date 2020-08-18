@@ -5,7 +5,7 @@ Coronavirus pandemic is definitely one of the most serious and disastrous things
 
 I recently watched a Youtube video of freeCodeCamp.org (https://www.youtube.com/watch?v=1gQ6uG5Ujiw), which inspires me a lot. It gives me a sense how to extract data from twitter API and do simple visualization and rule-based sentiment analysis using textBlob. However, rule-based algorithm is based on the text rather than content, which makes it less realistic. In order to increase the precision and accuracy, I will apply supervised machine learning classification algorithms and also unsupervised machine learning algorithms to explore data. 
 
-This project aims to find out how the people’s opinions and attitude changed overtime on twitter. The training dataset is being used is ‘sentiment140 dataset’, which contained extracted using the Twitter API and has been annotated positive/negative to detect sentiment. The dataset is pulled through Twitter API and are all about Covid-19 and Conoravirus. 
+This small project aims to find out how the people’s opinions and attitude changed overtime on twitter. The training dataset is being used is ‘sentiment140 dataset’, which contained extracted using the Twitter API and has been annotated positive/negative to detect sentiment. The dataset is pulled through Twitter API and are all about Covid-19 and Conoravirus. 
 
 ## Table of Content
 - [Dataset](#Dataset) 
@@ -37,10 +37,11 @@ Call twitter API to get recent 7 days tweets related to Covid-19, refer <a href=
 
 ## Apply_Model
 The score of four models are:     
-Multinomial naive bayes classifier - 0.776  
-Linear SVM - 0.777    
-Logistic Regression - 0.791     
-RandomForest Classifier - 0.753     
+- Multinomial naive bayes classifier - 0.776  
+- Linear SVM - 0.777    
+- Logistic Regression - 0.791     
+- RandomForest Classifier - 0.753  
+     
 Therefore, selected the model with the highest score (Logistic Regression) for sentiment analysis. Code is <a href="https://github.com/ellenxxiao/Sentiment-Analysis-towards-Covid-19-on-Twitter/blob/master/apply_model.py" target="_blank">here</a>      
 Let's see how many tweets about covid-19 have been made each day during the last week and how number of positive and negative posts changed in a week.     
 ![Capture](https://user-images.githubusercontent.com/26680796/90534540-dc1c6f00-e147-11ea-86a8-888136f60137.png)
