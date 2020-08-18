@@ -16,7 +16,7 @@ This project aims to find out how the people’s opinions and attitude changed o
 - [Results](#Results)
 
 ## Dataset
-The data source can be found at [Kaggle](https://www.kaggle.com/kazanova/notebook) Sentiment140 dataset with 1.6 million tweets. 
+The data source can be found at [Kaggle](https://www.kaggle.com/kazanova/notebook) - Sentiment140 dataset with 1.6 million tweets. 
 
 ## Data_Preprocessing
 <a href="https://github.com/ellenxxiao/Sentiment-Analysis-towards-Covid-19-on-Twitter/blob/master/Text_Preprocessing.py" target="_blank">Data preprocessing</a> contains several steps to clean the tweets text:
@@ -28,21 +28,21 @@ The data source can be found at [Kaggle](https://www.kaggle.com/kazanova/noteboo
 
 ## Train_Model
 <a href="https://github.com/ellenxxiao/Sentiment-Analysis-towards-Covid-19-on-Twitter/blob/master/train_model.py" target="_blank">Train Model</a> section shows the followings:
-1. split dataset to train and test datasets (test size is 0.1)
-2. apply TF-IDF vectorizer
-3. apply and evaluate models (models include multinomial naive bayes classifier, linear SVM, Logistic Regression, and RandomForest Classifier) 
+1. split dataset to train and test datasets 
+2. apply TF-IDF vectorizer   
+3. apply and evaluate models (models include multinomial naive bayes classifier, linear SVM, Logistic Regression, and RandomForest Classifier)   
 
 ## Get_Titter_Dataset
 Call twitter API to get recent 7 days tweets related to Covid-19, refer <a href="https://github.com/ellenxxiao/Sentiment-Analysis-towards-Covid-19-on-Twitter/blob/master/twitter_search2.py" target="_blank">here</a>
 
 ## Apply_Model
-The score of four models are:
-Multinomial naive bayes classifier - 0.776
-Linear SVM - 0.777
-Logistic Regression - 0.791
-RandomForest Classifier - 0.753
-Therefore, selected the model with the highest score (Logistic Regression) for sentiment analysis. Code is <a href="https://github.com/ellenxxiao/Sentiment-Analysis-towards-Covid-19-on-Twitter/blob/master/apply_model.py" target="_blank">here</a>
-Let's see how many tweets about covid-19 have been made each day during the last week and how number of positive and negative posts changed in a week.
+The score of four models are:     
+Multinomial naive bayes classifier - 0.776  
+Linear SVM - 0.777    
+Logistic Regression - 0.791     
+RandomForest Classifier - 0.753     
+Therefore, selected the model with the highest score (Logistic Regression) for sentiment analysis. Code is <a href="https://github.com/ellenxxiao/Sentiment-Analysis-towards-Covid-19-on-Twitter/blob/master/apply_model.py" target="_blank">here</a>      
+Let's see how many tweets about covid-19 have been made each day during the last week and how number of positive and negative posts changed in a week.     
 ![Capture](https://user-images.githubusercontent.com/26680796/90534540-dc1c6f00-e147-11ea-86a8-888136f60137.png)
 ![Capture](https://user-images.githubusercontent.com/26680796/90534562-e2aae680-e147-11ea-89e6-1cd948b930d5.png)
 
