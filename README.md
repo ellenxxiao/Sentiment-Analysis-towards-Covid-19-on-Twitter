@@ -10,10 +10,9 @@ This small project aims to find out how the people’s opinions and attitude cha
 ## Table of Content
 - [Dataset](#Dataset) 
 - [Data Preprocessing](#Data_Preprocessing)  
-- [Data Visualization](#Data_Visualization)  
-- [Feature selection](#Feature_Selection)  
-- [Prediction](#Prediction)
-- [Results](#Results)
+- [Train_Model](#Train_Model)  
+- [Get_Titter_Dataset](#Get_Titter_Dataset)  
+- [Apply_Model](#Apply_Model)
 
 ## Dataset
 The data source can be found at [Kaggle](https://www.kaggle.com/kazanova/notebook) - Sentiment140 dataset with 1.6 million tweets. 
