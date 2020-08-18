@@ -3,16 +3,16 @@
 ## Introduction
 Coronavirus pandemic is definitely one of the most serious and disastrous things in 2020. It is a life changer for lots of people. In Massachusetts, US, people started working at home since March, staying at home order is still effective, grocery stores, supermarkets and many indoor business require customers to wear a mask, people keep social distance spontaneously. I believe many people, at least myself, felt panic, nervous at first, then felt bored staying at home, for now I kind of adapted to this new normal. 
 
-I recently watched a Youtube video of freeCodeCamp.org (https://www.youtube.com/watch?v=1gQ6uG5Ujiw), which inspires me a lot. It gives me a sense how to extract data from twitter API and do simple visualization and rule-based sentiment analysis using textBlob. However, rule-based algorithm is based on the text rather than content, which makes it less realistic. In order to increase the precision and accuracy, I will apply supervised machine learning classification algorithms and also unsupervised machine learning algorithms to explore data. 
+I recently watched a Youtube video of [freeCodeCamp.org](https://www.youtube.com/watch?v=1gQ6uG5Ujiw), which inspires me a lot. It gives me a sense how to extract data from twitter API and do simple visualization and rule-based sentiment analysis using textBlob. However, rule-based algorithm is based on the text rather than content, which makes it less realistic. In order to increase the precision and accuracy, I will apply supervised machine learning classification algorithms and also unsupervised machine learning algorithms to explore data. 
 
 This small project aims to find out how the people’s opinions and attitude changed overtime on twitter. The training dataset is being used is ‘sentiment140 dataset’, which contained extracted using the Twitter API and has been annotated positive/negative to detect sentiment. The dataset is pulled through Twitter API and are all about Covid-19 and Conoravirus. 
 
 ## Table of Content
 - [Dataset](#Dataset) 
 - [Data Preprocessing](#Data_Preprocessing)  
-- [Train_Model](#Train_Model)  
-- [Get_Titter_Dataset](#Get_Titter_Dataset)  
-- [Apply_Model](#Apply_Model)
+- [Train Model](#Train_Model)  
+- [Get Titter Dataset](#Get_Titter_Dataset)  
+- [Apply Model](#Apply_Model)
 
 ## Dataset
 The data source can be found at [Kaggle](https://www.kaggle.com/kazanova/notebook) - Sentiment140 dataset with 1.6 million tweets. 
