@@ -5,7 +5,7 @@ Coronavirus pandemic is definitely one of the most serious and disastrous things
 
 I recently watched a Youtube video of freeCodeCamp.org (https://www.youtube.com/watch?v=1gQ6uG5Ujiw), which inspires me a lot. It gives me a sense how to extract data from twitter API and do simple visualization and rule-based sentiment analysis using textBlob. However, rule-based algorithm is based on the text rather than content, which makes it less realistic. In order to increase the precision and accuracy, I will apply supervised machine learning classification algorithms and also unsupervised machine learning algorithms to explore data. 
 
-This project aims to find out how the people’s opinions and attitude changed overtime on twitter. The training dataset is being used is ‘sentiment140 dataset’, which contained extracted using the Twitter API and has been annotated positive/negative/neutral to detect sentiment. The dataset is pulled through Twitter API and are all about Covid-19 and Conoravirus. 
+This project aims to find out how the people’s opinions and attitude changed overtime on twitter. The training dataset is being used is ‘sentiment140 dataset’, which contained extracted using the Twitter API and has been annotated positive/negative to detect sentiment. The dataset is pulled through Twitter API and are all about Covid-19 and Conoravirus. 
 
 ## Table of Content
 - [Dataset](#Dataset) 
